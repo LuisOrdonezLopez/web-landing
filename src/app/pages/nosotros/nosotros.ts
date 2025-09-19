@@ -20,7 +20,7 @@ export class Nosotros {
     });
     this.metaService.updateTag({
       property: 'og:image',
-      content: '/assets/og-nosotros.png'
+      content: '../../../../public/logo_karinas.png'
     });
   }
 

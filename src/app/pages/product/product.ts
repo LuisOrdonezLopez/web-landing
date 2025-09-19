@@ -28,7 +28,7 @@ export class Product {
     });
     this.metaService.updateTag({
       property: 'og:image',
-      content: '/assets/og-productos.png'
+      content: '../../../../public/logo_karinas.png'
     });
   }
 }

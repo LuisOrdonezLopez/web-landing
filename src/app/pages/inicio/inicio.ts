@@ -21,7 +21,7 @@ export class Inicio {
     });
     this.metaService.updateTag({
       property: 'og:image',
-      content: '/assets/og-home.png'
+      content: '../../../../public/logo_karinas.png'
     });
   }
 
