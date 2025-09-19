@@ -1,0 +1,52 @@
+:host {
+display: block;
+height: 100%;
+}
+
+.sidenav-container {
+height: 100vh;
+}
+
+.sidenav {
+width: 220px;
+}
+
+.main {
+padding: 24px;
+min-height: calc(100vh - 64px - 40px); // toolbar + footer
+}
+
+.footer {
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgba(0,0,0,0.04);
+}
+
+
+.mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 1rem;
+
+    &.active {
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
